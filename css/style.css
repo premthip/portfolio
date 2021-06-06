@@ -101,6 +101,9 @@ p {
 .div1{
   background-color: #f3f3f3;
 }
+.div2{
+  background-color: #ffff;
+}
 
 .button1 {background-color: #4CAF50;} /* Green */
 .button2 {background-color: #008CBA;} /* Blue */
