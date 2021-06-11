@@ -97,12 +97,22 @@ p {
   margin: 4px 2px;
   cursor: pointer;
 }
-
+.bgprofile
+{
+ width: auto;
+ height: auto;
+ background-color: blue;
+ background-size:cover;
+ text-align: left; 
+}
 .div1{
   background-color: #f3f3f3;
 }
 .div2{
   background-color: #ffff;
+}
+.div3{
+  background-color: #cee6ee;
 }
 
 .button1 {background-color: #4CAF50;} /* Green */
