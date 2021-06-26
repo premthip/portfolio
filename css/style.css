@@ -86,17 +86,71 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }*/
-.button {
-  border: greenyellow;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px;
-  cursor: pointer;
+
+.wrap
+{
+    width: 950px;
+    margin: auto;
 }
+.blog {
+    width: 1000px;
+    height: 335px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 7px 29px 0px rgba(69,69,69,0.3);
+    margin: 30px;
+}
+
+.imgb {
+    height: 250px;
+    width: 50%;
+    background-size: cover
+}
+
+.blog-name {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+    .blog-name h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 22px;
+        
+        cursor: pointer;
+        padding: 10px 30px;
+    }
+
+.blog-category {
+    background-color: #69B1B5;
+    font-size: 15px;
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: white;
+}
+
+.details {
+    line-height: 13px;
+}
+
+    .details p {
+        font-weight: bold;
+        text-transform: upperCase;
+        font-size: 13px;
+    }
+
+        .details p span {
+            font-size: 12px;
+            font-weight: normal;
+            text-transform: lowercase;
+        }
+
 .bgprofile
 {
  width: auto;
@@ -111,13 +165,16 @@ p {
 .div2{
   background-color: #ffff;
 }
-.div3{
-  background-color: #cee6ee;
+.div3 {
+    background-color: #D7F8CC;
 }
 
 .button1 {background-color: #4CAF50;} /* Green */
 .button2 {background-color: #008CBA;} /* Blue */
-.button3 {background-color: lightcyan;} 
+.button3 {
+    background-color: lightcyan;
+    border-radius: 12px;
+} 
 
 .container {
   overflow: hidden;
@@ -471,6 +528,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto; }
+
 
   .img-icon{
     max-width: 100%;
@@ -8628,10 +8686,7 @@ h1, h2, h3, h4, h5,
     height: 600px;
     position: relative;
     background-position: top center; }
-    .hero-wrap.hero-wrap-2 .overlay {
-      width: 100%;
-      opacity: .3;
-      background: #fff; }
+   
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 600px; }
 
@@ -9294,7 +9349,7 @@ textarea.form-control {
   background-position: center center;
   position: relative;
   display: block;
-  width: 100%;
+  width: 70%;
   height: 350px; }
 
 .blog-entry {
